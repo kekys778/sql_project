@@ -19,6 +19,6 @@ services:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
 ```
 
-- 'docker-compose up -d'
-- 'docker exec -it docker_sql-mysql-1 mysql -u root -p'
+- `docker-compose up -d`
+- `docker exec -it docker_sql-mysql-1 mysql -u root -p`
 
